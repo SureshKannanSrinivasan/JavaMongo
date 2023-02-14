@@ -26,6 +26,8 @@ public class JavaMongoDBConnection {
             }
              
             mongoClient.close();
+         
+         //close
              
         } catch (Exception ex) {
             ex.printStackTrace();
